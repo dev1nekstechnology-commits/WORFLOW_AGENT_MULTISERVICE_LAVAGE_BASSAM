@@ -14,7 +14,7 @@
 ```
 ÉCRAN ACCUEIL
 ┌─────────────────────────────────────┐
-│  🚗 LAVAGE INTERNATIONAL DE BASSAM  │
+│   LAVAGE INTERNATIONAL DE BASSAM  │
 │                                     │
 │     Bienvenue ! Il est 09h15       │
 │                                     │
@@ -33,12 +33,12 @@
 ```
 CHOISISSEZ VOS SERVICES
 ┌─────────────┬─────────────┐
-│ 🚗 LAVAGE   │ 💆‍♀️ BEAUTÉ  │
+│    LAVAGE   │  BEAUTÉ  │
 │ & ENTRETIEN │ & BIEN-ÊTRE │
 │             │             │
 └─────────────┴─────────────┘
 ┌─────────────┬─────────────┐
-│ 🍽️ RESTAU   │ 🛍️ BOUTIQUE │
+│    RESTAU   │  BOUTIQUE │
 │ & BOISSONS  │ & VENTE     │
 │             │             │
 └─────────────┴─────────────┘
@@ -164,7 +164,7 @@ Nouveau total points : 12 545
 
 ### Ticket Généré et Imprimé
 ```
-🎫 TICKET DE SUIVI N° LIB-2025-1015-0023
+TICKET DE SUIVI N° LIB-2025-1015-0023
 ═══════════════════════════════════════════
 LAVAGE INTERNATIONAL DE BASSAM
 Date: 15/10/2025  Heure: 09h22
@@ -196,7 +196,7 @@ WhatsApp: +225 74 76 40 385
 
 ### Dashboard Gestionnaire - Nouvelle Commande
 ```
-🔔 NOUVELLE COMMANDE - 09h22
+ NOUVELLE COMMANDE - 09h22
 ───────────────────────────────────────
 Client: KOUASSI YAO (ID: KY-2023-0456)
 Véhicule: Toyota Camry - CI 1234 AB
@@ -243,7 +243,7 @@ TOTAL: 9 500 F
 ```
 💬 WHATSAPP - 09h28
 ───────────────────────────
-🚗 Lavage International de Bassam
+ Lavage International de Bassam
 
 Bonjour M. Kouassi,
 
@@ -304,9 +304,9 @@ NOUVEAU TOTAL: 13 775 F
 
 ### Notification Mise à Jour
 ```
-💬 WHATSAPP - 09h46
+WHATSAPP - 09h46
 ───────────────────────────
-🚗 Lavage International de Bassam
+ Lavage International de Bassam
 
 M. Kouassi, votre commande a été 
 mise à jour :
@@ -329,11 +329,11 @@ Temps restant: ~20 minutes
 
 ### Notification Fin de Service
 ```
-💬 WHATSAPP - 10h08
+ WHATSAPP - 10h08
 ───────────────────────────
-🚗 Lavage International de Bassam
+ Lavage International de Bassam
 
-🎉 Votre Toyota Camry est PRÊTE !
+ Votre Toyota Camry est PRÊTE !
 
 Status: 🟢 TERMINÉ
 Veuillez vous rendre à la caisse 
@@ -346,9 +346,9 @@ Merci de votre confiance !
 
 ### Mise à Jour Écrans TV
 ```
-📺 ÉCRAN D'AFFICHAGE - TOUTES ZONES
+ ÉCRAN D'AFFICHAGE - TOUTES ZONES
 ═══════════════════════════════════════════
-🔔 VÉHICULE PRÊT POUR RÉCUPÉRATION
+ VÉHICULE PRÊT POUR RÉCUPÉRATION
 
 KY-456 - Toyota Camry - M. KOUASSI
 Rendez-vous à la caisse SVP
@@ -388,15 +388,15 @@ Points à gagner: +138 points
 ```
 CHOISISSEZ VOTRE MOYEN DE PAIEMENT
 ┌─────────────┬─────────────┐
-│ 💵 ESPÈCES  │ 🧡 ORANGE   │
+│    ESPÈCES  │  ORANGE   │
 │             │    MONEY    │
 └─────────────┴─────────────┘
 ┌─────────────┬─────────────┐
-│ 📱 MTN      │ 🌊 WAVE     │
+│    MTN      │  WAVE     │
 │    MONEY    │             │
 └─────────────┴─────────────┘
 ┌─────────────┬─────────────┐
-│ 💳 CARTE    │ 🎫 FIDÉLITÉ │
+│    CARTE    │  FIDÉLITÉ │
 │ BANCAIRE    │             │
 └─────────────┴─────────────┘
 ```
@@ -437,7 +437,7 @@ Ref: OM-2025-1015-0089
 
 ### Reçu Final Imprimé
 ```
-🧾 REÇU OFFICIEL N° LIB-2025-1015-0023
+ REÇU OFFICIEL N° LIB-2025-1015-0023
 ═══════════════════════════════════════════
 LAVAGE INTERNATIONAL DE BASSAM
 Route Internationale, Grand-Bassam
