@@ -519,3 +519,10 @@ Prochaines actions suggérées:
 **DURÉE TOTALE : 1 heure (09h15 → 10h16)**  
 **TEMPS SERVICE EFFECTIF : 53 minutes**  
 **SATISFACTION CLIENT : Service fluide et transparent**
+
+# PROTOTYPE UTILISATEUR  
+https://www.figma.com/proto/8sGkvDRXmzGEQvimjm2ieo/UTILISATEUR-%7C-AGENCE-MULTI-SERVICE--lavage-auto--CAS-BASSAM?node-id=2-227&t=zNFqRcN7m0BILJrY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
+
+# PROTOTYPE CAISSE 
+
+https://www.figma.com/proto/8sGkvDRXmzGEQvimjm2ieo/UTILISATEUR-%7C-AGENCE-MULTI-SERVICE--lavage-auto--CAS-BASSAM?node-id=28-364&t=MpkYvjJzdMhoGMZy-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
