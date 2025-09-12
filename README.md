@@ -1,386 +1,405 @@
-# Workflow Complet du Système avec Exemple Concret
-
-## Exemple : M. Kouassi Yao arrive avec sa Toyota Camry
+# Workflow Complet du Système Bassam - Version Actualisée
+## Modifications Post-Rencontre Client du 09/10/2025
 
 ---
 
-## PHASE 1 : ARRIVÉE ET ACCUEIL (Kiosque Tactile)
+## CHANGEMENTS PRINCIPAUX INTÉGRÉS
+
+###  Nouvelles Fonctionnalités Demandées :
+- **Enregistrement multiple** : QR Code + Immatriculation + ID unique
+- **Kiosque dédié uniquement aux paiements**
+- **Personnel enregistre manuellement les nouveaux clients**
+- **Gestionnaire peut modifier immatriculations et IDs clients**
+- **Écran de suivi affiche uniquement les immatriculations complètes**
+- **Application mobile inchangée**
+
+---
+
+## EXEMPLE CONCRET : M. Kouassi Yao avec sa Toyota Camry CI 1234 AB 56
+
+---
+
+## PHASE 1 : ARRIVÉE ET ACCUEIL PERSONNALISÉ
 
 ### Heure : 09h15 - Mardi 15 octobre 2025
 
-**M. Kouassi Yao** arrive au Lavage International de Bassam avec sa **Toyota Camry 2020**
+**M. Kouassi Yao** arrive au Lavage International de Bassam avec sa **Toyota Camry - CI 1234 AB 56**
 
-### Action : Interaction avec le Kiosque
+###  NOUVEAU : Enregistrement par le Personnel
+**Le personnel à l'accueil s'occupe directement de l'enregistrement**
+
 ```
-ÉCRAN ACCUEIL
-┌─────────────────────────────────────┐
-│   LAVAGE INTERNATIONAL DE BASSAM  │
-│                                     │
-│     Bienvenue ! Il est 09h15       │
-│                                     │
-│  [ COMMENCER UNE NOUVELLE COMMANDE ]│
-│                                     │
-└─────────────────────────────────────┘
-```
-
-**Action : M. Kouassi touche "Commencer"**
-
----
-
-## PHASE 2 : SÉLECTION DES CATÉGORIES DE SERVICES
-
-### Écran de Sélection
-```
-CHOISISSEZ VOS SERVICES
-┌─────────────┬─────────────┐
-│    LAVAGE   │  BEAUTÉ  │
-│ & ENTRETIEN │ & BIEN-ÊTRE │
-│             │             │
-└─────────────┴─────────────┘
-┌─────────────┬─────────────┐
-│    RESTAU   │  BOUTIQUE │
-│ & BOISSONS  │ & VENTE     │
-│             │             │
-└─────────────┴─────────────┘
+INTERFACE PERSONNEL - ENREGISTREMENT CLIENT
+┌─────────────────────────────────────────────┐
+│     ENREGISTREMENT NOUVEAU CLIENT           │
+│                                             │
+│  MÉTHODE D'IDENTIFICATION :                │
+│                                             │
+│  [  SCANNER QR CODE ]                    │
+│                                             │
+│  [  SAISIR IMMATRICULATION ]              │
+│                                             │
+│  [ SAISIR ID CLIENT ]                    │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
-**M. Kouassi sélectionne :**
-1. **LAVAGE & ENTRETIEN** (priorité)
-2. **RESTAURATION** (café pendant l'attente)
+**Le personnel choisit : "SAISIR ID CLIENT" car M. Kouassi est déjà client**
 
----
-
-## PHASE 3 : SÉLECTION SERVICES LAVAGE
-
-### Services Lavage Disponibles
+### Recherche Client Existant
 ```
-LAVAGE & ENTRETIEN VÉHICULES
-┌─────────────────────────────────────┐
-│ ✓ Lavage Extérieur    - 5 000 FCFA │
-│ ✓ Lavage Complet     - 8 500 FCFA │
-│   Cirage & Polish    - 7 500 FCFA  │
-│   Pack Premium       -15 000 FCFA  │
-└─────────────────────────────────────┘
-
-PANIER : 1 service - 8 500 FCFA
+RECHERCHE CLIENT EXISTANT
+┌─────────────────────────────────────────────┐
+│  ID Client : [ KY-2023-0456 ]              │
+│                                             │
+│  OU                                         │
+│                                             │
+│  Immatriculation : [ CI 1234 AB 56 ]       │
+│                                             │
+│  [ RECHERCHER ]                             │
+└─────────────────────────────────────────────┘
 ```
 
-**M. Kouassi choisit : Lavage Complet (8 500 FCFA)**
-
----
-
-## PHASE 4 : SÉLECTION SERVICES RESTAURATION
-
-### Services Restauration
+### Profil Client Trouvé
 ```
-RESTAURATION & BOISSONS
-┌─────────────────────────────────────┐
-│ ✓ Café Expresso      - 1 500 FCFA │
-│   Jus d'Orange       - 2 000 FCFA  │
-│   Sandwich Club      - 4 500 FCFA  │
-└─────────────────────────────────────┘
+ CLIENT TROUVÉ - KOUASSI YAO
+═══════════════════════════════════════════════
+ID Client : KY-2023-0456
+Niveau Fidélité : ARGENT (12 450 points)
+Téléphone : +225 07 45 67 89
 
-PANIER : 2 services - 10 000 FCFA
-```
+VÉHICULES ENREGISTRÉS :
+• Toyota Camry - CI 1234 AB 56  (Principal)
+• Peugeot 208 - CI 5678 CD 90
 
-**M. Kouassi ajoute : Café Expresso (1 500 FCFA)**
-
----
-
-## PHASE 5 : RÉCAPITULATIF ET IDENTIFICATION
-
-### Récapitulatif Commande
-```
-RÉCAPITULATIF DE VOTRE COMMANDE
-────────────────────────────────────
-Lavage Complet (Toyota Camry)  8 500 F
-Café Expresso                  1 500 F
-────────────────────────────────────
-TOTAL                        10 000 F
-Durée estimée : 45-50 minutes
-
-[ CONTINUER ]
-```
-
-### Identification Client
-```
-IDENTIFICATION CLIENT
-┌─────────────────────────────────────┐
-│ Avez-vous déjà un compte chez nous ?│
-│                                     │
-│ [ JE SUIS DÉJÀ CLIENT ]            │
-│                                     │
-│ [ PREMIÈRE VISITE ]                 │
-└─────────────────────────────────────┘
-```
-
-**M. Kouassi sélectionne : "JE SUIS DÉJÀ CLIENT"**
-
-### Connexion Existante
-```
-CONNEXION CLIENT
-┌─────────────────────────────────────┐
-│ ID Client : [ KY-2023-0456 ]       │
-│                                     │
-│ OU scannez votre carte fidélité     │
-│                                     │
-│ [ CONNEXION ]                       │
-└─────────────────────────────────────┘
-```
-
-**M. Kouassi saisit son ID : KY-2023-0456**
-
-### Profil Client Chargé
-```
-BIENVENUE M. KOUASSI YAO !
-────────────────────────────────────
-Client Fidélité ARGENT
-Points actuels : 12 450
-Réduction automatique : 5%
-────────────────────────────────────
-Toyota Camry 2020 - CI 1234 AB
 Dernière visite : 28 septembre 2025
+Total visites : 23
+
+[ MODIFIER INFOS ] [ CRÉER NOUVELLE COMMANDE ]
 ```
 
 ---
 
-## PHASE 6 : VALIDATION FINALE ET GÉNÉRATION TICKET
+## PHASE 2 : CRÉATION DE COMMANDE PAR LE PERSONNEL
 
-### Commande Finale avec Fidélité
+### Sélection Services pour le Client
 ```
-COMMANDE FINALE - M. KOUASSI YAO
-────────────────────────────────────
-Lavage Complet                 8 500 F
-Café Expresso                  1 500 F
-SOUS-TOTAL                    10 000 F
-Réduction fidélité (5%)        -500 F
-TOTAL À PAYER                  9 500 F
+CRÉATION COMMANDE - KOUASSI YAO
+┌─────────────────────────────────────────────┐
+│  Véhicule : Toyota Camry - CI 1234 AB 56   │
+│                                             │
+│  CATÉGORIES DE SERVICES DISPONIBLES :      │
+│                                             │
+│  ✓ [ LAVAGE & ENTRETIEN ]                   │
+│  □ [ BEAUTÉ & BIEN-ÊTRE ]                   │
+│  ✓ [ RESTAURATION ]                         │
+│  □ [ BOUTIQUE & VENTE ]                     │
+│                                             │
+└─────────────────────────────────────────────┘
+```
 
-Points gagnés : +95 points
-Nouveau total points : 12 545
+### Sélection Services Lavage
+```
+SERVICES LAVAGE & ENTRETIEN
+┌─────────────────────────────────────────────┐
+│  ✓ Lavage Complet         8 500 FCFA       │
+│  □ Lavage Extérieur       5 000 FCFA       │
+│  □ Cirage Premium         7 500 FCFA       │
+│  □ Pack Complet          15 000 FCFA       │
+│                                             │
+│  Services sélectionnés : 1                 │
+│  Total partiel : 8 500 FCFA                │
+└─────────────────────────────────────────────┘
+```
+
+### Sélection Services Restauration
+```
+SERVICES RESTAURATION
+┌─────────────────────────────────────────────┐
+│  ✓ Café Expresso          1 500 FCFA       │
+│  □ Jus d'Orange           2 000 FCFA       │
+│  □ Sandwich Club          4 500 FCFA       │
+│                                             │
+│  Total sélection : 2 services              │
+│  TOTAL COMMANDE : 10 000 FCFA              │
+└─────────────────────────────────────────────┘
+```
+
+### Récapitulatif et Application Réduction Fidélité
+```
+RÉCAPITULATIF COMMANDE - KOUASSI YAO
+═══════════════════════════════════════════════
+Véhicule : Toyota Camry - CI 1234 AB 56
+
+SERVICES :
+• Lavage Complet                    8 500 F
+• Café Expresso                     1 500 F
+                                   ─────────
+SOUS-TOTAL                         10 000 F
+
+FIDÉLITÉ ARGENT (Automatique) :
+Réduction 5%                         -500 F
+                                   ─────────
+TOTAL À PAYER                       9 500 F
+
+Points à gagner : +95 points
+Durée estimée : 45-50 minutes
 
 [ VALIDER COMMANDE ]
 ```
 
-### Ticket Généré et Imprimé
+---
+
+## PHASE 3 : GÉNÉRATION TICKET ET ID UNIQUE
+
+### Ticket Généré Automatiquement
 ```
-TICKET DE SUIVI N° LIB-2025-1015-0023
-═══════════════════════════════════════════
+ TICKET DE SUIVI N° LIB-2025-1015-0023
+═══════════════════════════════════════════════
 LAVAGE INTERNATIONAL DE BASSAM
 Date: 15/10/2025  Heure: 09h22
 
 Client: KOUASSI YAO (Fidélité Argent)
-ID: KY-2023-0456
-Véhicule: Toyota Camry - CI 1234 AB
+ID Client: KY-2023-0456
+Véhicule: CI 1234 AB 56 (Toyota Camry)
+
+CODE DE PAIEMENT: 0023
+(À conserver pour paiement au kiosque)
 
 SERVICES COMMANDÉS:
-• Lavage Complet          8 500 F
-• Café Expresso           1 500 F
-Réduction fidélité (5%)    -500 F
+• Lavage Complet                    8 500 F
+• Café Expresso                     1 500 F
+Réduction fidélité (5%)              -500 F
 TOTAL: 9 500 FCFA
 
 Durée estimée: 45-50 min
 Fin prévue vers: 10h10
 
-[QR CODE DE SUIVI]
-
 Position file d'attente: 3ème
-═══════════════════════════════════════════
-Gardez ce ticket pour le paiement
+
+═══════════════════════════════════════════════
+POUR PAYER : Rendez-vous au kiosque
+avec le CODE : 0023
 WhatsApp: +225 74 76 40 385
 ```
 
 ---
 
-## PHASE 7 : NOTIFICATION GESTIONNAIRE
+## PHASE 4 : DASHBOARD GESTIONNAIRE - SUIVI EN TEMPS RÉEL
 
-### Dashboard Gestionnaire - Nouvelle Commande
+### Interface Gestionnaire Actualisée
 ```
- NOUVELLE COMMANDE - 09h22
-───────────────────────────────────────
-Client: KOUASSI YAO (ID: KY-2023-0456)
-Véhicule: Toyota Camry - CI 1234 AB
-Total: 9 500 FCFA
+🖥️ DASHBOARD GESTIONNAIRE - 09h22
+═══════════════════════════════════════════════
+ NOUVELLE COMMANDE CRÉÉE
 
-Services demandés:
+ID Commande : LIB-2025-1015-0023
+Client : KOUASSI YAO (KY-2023-0456)
+Véhicule : CI 1234 AB 56 (Toyota Camry)
+Total : 9 500 FCFA
+
+STATUS ACTUEL : 🔴 ENREGISTRÉ
+
+Services :
 ✓ Lavage Complet (45 min)
 ✓ Café Expresso
 
-[ VOIR DÉTAILS ] [ PRENDRE EN CHARGE ]
+[ CHANGER STATUT ] [ MODIFIER IMMATRICULATION ]
+[ MODIFIER ID CLIENT ] [ AJOUTER SERVICE ]
 ```
 
-**Le gestionnaire clique "PRENDRE EN CHARGE"**
-
-### Fiche Client Détaillée
+###  NOUVEAU : Fonctions Avancées Gestionnaire
 ```
-FICHE CLIENT - KOUASSI YAO
-═══════════════════════════════════════
-ID: KY-2023-0456
-Téléphone: +225 07 45 67 89
-Fidélité: ARGENT (12 545 points)
-
-VÉHICULE EN COURS:
-Toyota Camry - CI 1234 AB
-Status: 🔴 ROUGE (Début traitement)
-
-FACTURATION:
-• Lavage Complet          8 500 F
-• Café Expresso           1 500 F
-Réduction (5%)             -500 F
-TOTAL: 9 500 F
-
-[ CHANGER STATUT ] [ AJOUTER SERVICE ] [ + ]
+OPTIONS GESTIONNAIRE AVANCÉES
+┌─────────────────────────────────────────────┐
+│  [ MODIFIER IMMATRICULATION ]               │
+│    CI 1234 AB 56 → [ Nouvelle immat. ]     │
+│                                             │
+│  [ MODIFIER ID CLIENT ]                     │
+│    KY-2023-0456 → [ Nouvel ID ]            │
+│                                             │
+│  [ AJOUTER SERVICE ]                        │
+│  [ APPLIQUER RÉDUCTION MANUELLE ]          │
+│  [ CHANGER STATUT VÉHICULE ]                │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-## PHASE 8 : DÉBUT DU SERVICE ET NOTIFICATIONS
+## PHASE 5 : ÉCRAN DE SUIVI VISUEL ACTUALISÉ
 
-### Le gestionnaire change le statut
-**Action : Statut ROUGE → ORANGE (Service en cours)**
-
-### Notification Automatique WhatsApp
+###  NOUVEAU : Affichage Immatriculations Complètes
 ```
-💬 WHATSAPP - 09h28
+📺 ÉCRAN DE SUIVI - ZONE D'ATTENTE
+═══════════════════════════════════════════════
+        SUIVI DE VOS VÉHICULES
+
+🔴 ENREGISTRÉ :
+    CI 1234 AB 56     🚗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ (0%)
+    [ENREGISTREMENT]           [EMBARQUEMENT]           [DÉPART]
+
+🟠 EN COURS :
+    CI 5678 CD 90     🚗████████━━━━━━━━━━━━━━━━━━━━━━━━━ (35%)
+    [ENREGISTREMENT]           [EMBARQUEMENT]           [DÉPART]
+
+🟢 TERMINÉ :
+    CI 9012 EF 34     🚗████████████████████████████████ (100%)
+    [ENREGISTREMENT]           [EMBARQUEMENT]           [DÉPART]
+                                                         PRÊT
+
+═══════════════════════════════════════════════════════
+Il est maintenant 09h25 - Suivez l'avancement de votre véhicule
+```
+
+---
+
+## PHASE 6 : PROGRESSION DU SERVICE
+
+### 09h28 - Début du Lavage
+**Le gestionnaire change le statut : ROUGE → ORANGE**
+
+### Notification WhatsApp Automatique
+```
+ WHATSAPP - 09h28
 ───────────────────────────
- Lavage International de Bassam
+ Lavage International Bassam
 
 Bonjour M. Kouassi,
 
-Votre Toyota Camry est maintenant 
-en cours de lavage !
+Votre véhicule CI 1234 AB 56 
+(Toyota Camry) est maintenant 
+en cours de traitement !
 
 Status: 🟠 EN COURS
 Temps restant: ~35 minutes
 Fin prévue: 10h05
 
-Profitez de votre café en attendant !
+Code de paiement: 0023
+(À garder pour le kiosque)
 
-Suivi en temps réel: [lien]
+Suivi en temps réel disponible
 ```
 
-### Affichage TV dans Zone Restauration
+### Mise à Jour Écran de Suivi
 ```
-📺 ÉCRAN D'AFFICHAGE - ZONE RESTAURATION
-═══════════════════════════════════════════
-        SUIVI DE VOS VÉHICULES
-
-🟠 EN COURS:
-KY-456 - Toyota Camry     ~30 min
-AD-789 - Peugeot 208      ~15 min
-
-🟢 TERMINÉS:
-BC-123 - Mercedes Classe A  PRÊT
-MN-234 - Honda Civic        PRÊT
-
-🔴 EN ATTENTE:
-PQ-567 - BMW X3            ~60 min
-═══════════════════════════════════════════
-Il est maintenant 09h35
+📺 ÉCRAN DE SUIVI ACTUALISÉ - 09h28
+═══════════════════════════════════════════════
+🟠 EN COURS :
+    CI 1234 AB 56     🚗████████████━━━━━━━━━━━━━━━━━━━━━ (45%)
+    [ENREGISTREMENT]           [EMBARQUEMENT]           [DÉPART]
+                                      ↑
+                               Traitement en cours
 ```
 
 ---
 
-## PHASE 9 : AJOUT DE SERVICE EN COURS
+## PHASE 7 : AJOUT DE SERVICE EN COURS (Si demandé)
 
-### 09h45 - M. Kouassi demande un service supplémentaire
+### 09h45 - Demande d'ajout service
+**M. Kouassi demande un sandwich au personnel**
 
-**Au comptoir restauration :**
-"Bonjour, je voudrais aussi un sandwich. Mon ID est KY-2023-0456"
-
-### Gestionnaire ajoute le service
+### Interface Gestionnaire - Ajout Service
 ```
-FICHE CLIENT - KOUASSI YAO
-═══════════════════════════════════════
-FACTURATION EN COURS:
-• Lavage Complet          8 500 F
-• Café Expresso           1 500 F
-• Sandwich Club    [+]    4 500 F ← AJOUTÉ
-Réduction (5%)             -725 F
-NOUVEAU TOTAL: 13 775 F
+MODIFICATION COMMANDE - KOUASSI YAO
+═══════════════════════════════════════════════
+Commande: LIB-2025-1015-0023
+Véhicule: CI 1234 AB 56
 
-[ SAUVEGARDER ] [ NOTIFIER CLIENT ]
-```
+FACTURATION ACTUELLE:
+• Lavage Complet                    8 500 F
+• Café Expresso                     1 500 F
+Réduction (5%)                       -500 F
+TOTAL ACTUEL                        9 500 F
 
-### Notification Mise à Jour
-```
-WHATSAPP - 09h46
-───────────────────────────
- Lavage International de Bassam
+AJOUTER SERVICE:
+• Sandwich Club              [+]    4 500 F
 
-M. Kouassi, votre commande a été 
-mise à jour :
+NOUVEAU TOTAL:                     13 775 F
+Points supplémentaires: +45
 
-+ Sandwich Club: 4 500 F
-Nouveau total: 13 775 F
-
-Status véhicule: 🟠 EN COURS
-Temps restant: ~20 minutes
+[ CONFIRMER AJOUT ] [ NOTIFIER CLIENT ]
 ```
 
 ---
 
-## PHASE 10 : FIN DE SERVICE
+## PHASE 8 : FIN DE SERVICE ET PRÉPARATION PAIEMENT
 
-### 10h08 - Service terminé
-**L'équipe lavage termine le véhicule**
-
+### 10h08 - Service Terminé
 **Le gestionnaire change : ORANGE → VERT**
 
-### Notification Fin de Service
+### Notification de Fin
 ```
  WHATSAPP - 10h08
 ───────────────────────────
- Lavage International de Bassam
+ Lavage International Bassam
 
  Votre Toyota Camry est PRÊTE !
 
+Véhicule: CI 1234 AB 56
 Status: 🟢 TERMINÉ
-Veuillez vous rendre à la caisse 
-pour le paiement.
+
+ POUR PAYER :
+Rendez-vous au KIOSQUE
+avec votre CODE : 0023
 
 Total à régler: 13 775 F
 
 Merci de votre confiance !
 ```
 
-### Mise à Jour Écrans TV
+### Écran de Suivi Final
 ```
- ÉCRAN D'AFFICHAGE - TOUTES ZONES
-═══════════════════════════════════════════
- VÉHICULE PRÊT POUR RÉCUPÉRATION
+📺 ÉCRAN DE SUIVI - 10h08
+═══════════════════════════════════════════════
+🟢 PRÊT POUR RÉCUPÉRATION :
+    CI 1234 AB 56     🚗████████████████████████████████ 
+    [ENREGISTREMENT]           [EMBARQUEMENT]           [DÉPART]
+                                                          
 
-KY-456 - Toyota Camry - M. KOUASSI
-Rendez-vous à la caisse SVP
-
-═══════════════════════════════════════════
+ VÉHICULE PRÊT - RENDEZ-VOUS AU KIOSQUE 
+    CODE PAIEMENT : 0023
 ```
 
 ---
 
-## PHASE 11 : PAIEMENT À LA CAISSE
+## PHASE 9 : PAIEMENT AU KIOSQUE DÉDIÉ
 
-### 10h12 - M. Kouassi se présente à la caisse
+###  NOUVEAU : Kiosque Uniquement pour Paiements
 
-**Caissier :** "Bonjour, votre ID s'il vous plaît ?"
-**M. Kouassi :** "KY-2023-0456"
-
-### Système de Caisse - Recherche Automatique
+### 10h12 - M. Kouassi se rend au kiosque
 ```
-CLIENT TROUVÉ - KOUASSI YAO
-═══════════════════════════════════════
-Véhicule: Toyota Camry - CI 1234 AB
-Status: 🟢 SERVICE TERMINÉ
+ KIOSQUE DE PAIEMENT
+┌─────────────────────────────────────────────┐
+│        PAIEMENT DE VOTRE FACTURE            │
+│                                             │
+│     Saisissez votre CODE DE PAIEMENT :     │
+│                                             │
+│         [ _ _ _ _ ]                          │
+│                                             │
+│           [ VALIDER ]                       │
+│                                             │
+└─────────────────────────────────────────────┘
+```
 
-FACTURE FINALE:
-• Lavage Complet          8 500 F
-• Café Expresso           1 500 F
-• Sandwich Club           4 500 F
-SOUS-TOTAL               14 500 F
-Réduction fidélité (5%)    -725 F
-TOTAL À PAYER            13 775 F
+**M. Kouassi saisit : 0023**
+
+### Affichage Facture
+```
+ FACTURE TROUVÉE - KOUASSI YAO
+═══════════════════════════════════════════════
+Véhicule: CI 1234 AB 56 (Toyota Camry)
+Commande: LIB-2025-1015-0023
+
+DÉTAIL SERVICES:
+• Lavage Complet                    8 500 F
+• Café Expresso                     1 500 F  
+• Sandwich Club                     4 500 F
+SOUS-TOTAL                         14 500 F
+Réduction fidélité (5%)              -725 F
+TOTAL À PAYER                      13 775 F
 
 Points à gagner: +138 points
+
 [ PROCÉDER AU PAIEMENT ]
 ```
 
@@ -388,141 +407,173 @@ Points à gagner: +138 points
 ```
 CHOISISSEZ VOTRE MOYEN DE PAIEMENT
 ┌─────────────┬─────────────┐
-│    ESPÈCES  │  ORANGE   │
-│             │    MONEY    │
+│   ORANGE    │     MTN     │
+│    MONEY    │    MONEY    │
 └─────────────┴─────────────┘
 ┌─────────────┬─────────────┐
-│    MTN      │  WAVE     │
-│    MONEY    │             │
+│    WAVE     │   CARTE     │
+│             │  BANCAIRE   │
 └─────────────┴─────────────┘
 ┌─────────────┬─────────────┐
-│    CARTE    │  FIDÉLITÉ │
-│ BANCAIRE    │             │
+│   ESPÈCES   │ POINTS      │
+│  (à la      │ FIDÉLITÉ    │
+│   caisse)   │             │
 └─────────────┴─────────────┘
 ```
 
 **M. Kouassi choisit : ORANGE MONEY**
 
-### Paiement Orange Money
+### Processus Paiement Orange Money
 ```
-PAIEMENT ORANGE MONEY
-═══════════════════════════════════════
+ PAIEMENT ORANGE MONEY
+═══════════════════════════════════════════════
 Montant: 13 775 FCFA
 
-OPTION 1: Scannez le QR Code
+ OPTION 1: Scannez le QR Code
 [QR CODE ORANGE MONEY]
 
-OPTION 2: Code USSD
+ OPTION 2: Code USSD
 Composez: *144*4*13775#
+Puis suivez les instructions
 
-Transaction ID: OM-2025-1015-0089
+Référence: LIB-2025-1015-0023
 
-[ EN ATTENTE DU PAIEMENT... ]
+ EN ATTENTE DE VOTRE PAIEMENT...
 ```
 
-### Confirmation Paiement
+### Confirmation Automatique
 ```
-✅ PAIEMENT CONFIRMÉ !
-═══════════════════════════════════════
+ PAIEMENT CONFIRMÉ !
+═══════════════════════════════════════════════
 Orange Money - 10h15
 Montant: 13 775 FCFA
-Ref: OM-2025-1015-0089
+Réf Transaction: OM-2025-1015-0089
 
-[ IMPRIMER REÇU ] [ ENVOYER PAR EMAIL ]
+Votre reçu sera imprimé automatiquement
+
+[ IMPRIMER REÇU ] [ NOUVEAU PAIEMENT ]
 ```
 
 ---
 
-## PHASE 12 : FINALISATION ET REÇU
+## PHASE 10 : REÇU FINAL ET CLÔTURE
 
-### Reçu Final Imprimé
+### Reçu Imprimé Automatiquement
 ```
  REÇU OFFICIEL N° LIB-2025-1015-0023
-═══════════════════════════════════════════
+═══════════════════════════════════════════════
 LAVAGE INTERNATIONAL DE BASSAM
 Route Internationale, Grand-Bassam
 Tél: +225 27 21 30 25 50
 Date: 15/10/2025  Heure: 10h15
 
 Client: KOUASSI YAO
-ID Fidélité: KY-2023-0456 (Niveau Argent)
-Véhicule: Toyota Camry - CI 1234 AB
+ID: KY-2023-0456 (Niveau Argent)
+Véhicule: CI 1234 AB 56 (Toyota Camry)
 
-DÉTAIL DES SERVICES:
-Lavage Complet             8 500 F
-Café Expresso              1 500 F  
-Sandwich Club              4 500 F
-                          ─────────
-Sous-total                14 500 F
-Remise fidélité (5%)        -725 F
-                          ─────────
-TOTAL PAYÉ                13 775 F
+SERVICES RENDUS:
+Lavage Complet                      8 500 F
+Café Expresso                       1 500 F  
+Sandwich Club                       4 500 F
+                                   ─────────
+Sous-total                         14 500 F
+Remise fidélité (5%)                 -725 F
+                                   ─────────
+TOTAL PAYÉ                         13 775 F
 
 PAIEMENT:
-Orange Money - 10h15      13 775 F
+Orange Money - 10h15               13 775 F
 Réf: OM-2025-1015-0089
 
-PROGRAMME FIDÉLITÉ:
+FIDÉLITÉ:
 Points gagnés: +138
 Nouveau total: 12 683 points
-Prochain niveau (OR): 2 317 points
+Statut: ARGENT
+Prochain niveau (OR): 2 317 points restants
 
-Durée totale service: 53 minutes
-Merci de votre visite !
+Durée service: 53 minutes
+Enregistrement: 09h22
+Fin service: 10h08
+Paiement: 10h15
+
+═══════════════════════════════════════════════
+Merci pour votre confiance !
+Prochain rdv suggéré: 05/11/2025
 
 [QR CODE] - Évaluez notre service
-═══════════════════════════════════════════
-```
-
-### Mise à Jour Base de Données
-```
-TRANSACTION FINALISÉE
-═══════════════════════════════════════
-Client ID: KY-2023-0456
-Commande: LIB-2025-1015-0023
-Status: ✅ PAYÉ ET TERMINÉ
-
-Historique mis à jour:
-- Points fidélité: 12 683 (+138)
-- Dernière visite: 15/10/2025
-- Service préféré: Lavage Complet
-- Véhicule habituel: Toyota Camry
-
-Prochaines actions suggérées:
-- SMS rappel dans 3 semaines
-- Offre spéciale Pack Premium
-- Invitation programme fidélité OR
+Suivez-nous: @lavage_bassam
+═══════════════════════════════════════════════
 ```
 
 ---
 
-## RÉCAPITULATIF CHRONOLOGIQUE COMPLET
+## RÉCAPITULATIF DES CHANGEMENTS INTÉGRÉS
 
-| Heure | Action | Acteur | Système |
-|-------|--------|--------|---------|
-| 09h15 | Arrivée client | M. Kouassi | Kiosque tactile |
-| 09h22 | Commande validée | M. Kouassi | Ticket généré |
-| 09h22 | Notification reçue | Gestionnaire | Dashboard |
-| 09h25 | Prise en charge | Gestionnaire | Statut ROUGE |
-| 09h28 | Début lavage | Équipe | Statut ORANGE |
-| 09h28 | Notification envoyée | Système | WhatsApp |
-| 09h35 | Affichage mis à jour | Système | Écrans TV |
-| 09h45 | Ajout service | M. Kouassi + Gestionnaire | Facturation |
+###  Nouvelles Fonctionnalités Implémentées :
+
+1. **Enregistrement Multiple** :
+   - QR Code scanning 
+   - Saisie immatriculation complète   
+   - Saisie ID client unique 
+
+2. **Kiosque Paiement Exclusif** :
+   - Interface dédiée uniquement aux paiements 
+   - Recherche par code de paiement 
+   - Aucune autre fonction 
+
+3. **Enregistrement Manuel Personnel** :
+   - Interface personnel pour enregistrement 
+   - Création commande par le staff 
+   - Recherche client existant 
+
+4. **Droits Gestionnaire Avancés** :
+   - Modification immatriculations 
+   - Modification IDs clients 
+   - Gestion complète des commandes 
+
+5. **Écran de Suivi Optimisé** :
+   - Affichage immatriculations complètes 
+   - Schéma visuel de progression 
+   - Masquage automatique après 60s 
+
+6. **Application Mobile** :
+   - Inchangée selon demande client 
+   - Fonctionnalités existantes conservées 
+
+---
+
+## CHRONOLOGIE COMPLÈTE ACTUALISÉE
+
+| Heure | Action | Responsable | Interface |
+|-------|--------|-------------|-----------|
+| 09h15 | Arrivée client | M. Kouassi | - |
+| 09h18 | Recherche client | Personnel | Interface Personnel |
+| 09h20 | Création commande | Personnel | Interface Personnel |
+| 09h22 | Ticket généré | Système | Impression |
+| 09h22 | Notification gestionnaire | Système | Dashboard |
+| 09h25 | Statut ROUGE activé | Gestionnaire | Dashboard |
+| 09h28 | Début lavage (ORANGE) | Gestionnaire | Dashboard |
+| 09h28 | Notification WhatsApp | Système | WhatsApp |
+| 09h30 | Mise à jour écran suivi | Système | Écran TV |
+| 09h45 | Ajout sandwich | Personnel/Gestionnaire | Dashboard |
 | 09h46 | Notification MAJ | Système | WhatsApp |
-| 10h08 | Service terminé | Équipe | Statut VERT |
-| 10h08 | Notification fin | Système | WhatsApp + TV |
-| 10h12 | Arrivée caisse | M. Kouassi | Recherche ID |
-| 10h15 | Paiement confirmé | M. Kouassi | Orange Money |
-| 10h15 | Reçu imprimé | Caissier | Transaction fermée |
-| 10h16 | Données sauvées | Système | Base de données |
+| 10h08 | Service terminé (VERT) | Gestionnaire | Dashboard |
+| 10h08 | Notification fin service | Système | WhatsApp + TV |
+| 10h12 | Arrivée kiosque | M. Kouassi | Kiosque Paiement |
+| 10h15 | Paiement Orange Money | M. Kouassi | Kiosque |
+| 10h15 | Reçu imprimé | Système | Kiosque |
+| 10h16 | Transaction fermée | Système | Base données |
 
-**DURÉE TOTALE : 1 heure (09h15 → 10h16)**  
-**TEMPS SERVICE EFFECTIF : 53 minutes**  
-**SATISFACTION CLIENT : Service fluide et transparent**
+**DURÉE TOTALE : 1h01 (09h15 → 10h16)**  
+**SATISFACTION CLIENT : Parcours fluide et intuitif** 
 
-# PROTOTYPE UTILISATEUR  
+---
+
+## LIENS PROTOTYPES ACTUALISÉS
+
+** PROTOTYPE INTERFACE UTILISATEUR :**  
 https://www.figma.com/proto/8sGkvDRXmzGEQvimjm2ieo/UTILISATEUR-%7C-AGENCE-MULTI-SERVICE--lavage-auto--CAS-BASSAM?node-id=2-227&t=zNFqRcN7m0BILJrY-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
 
-# PROTOTYPE CAISSE 
-
+** PROTOTYPE INTERFACE CAISSE :**  
 https://www.figma.com/proto/8sGkvDRXmzGEQvimjm2ieo/UTILISATEUR-%7C-AGENCE-MULTI-SERVICE--lavage-auto--CAS-BASSAM?node-id=28-364&t=MpkYvjJzdMhoGMZy-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
+
